@@ -16,7 +16,7 @@ This app is built with certain essential components:
  * Babel 7
  * React Material UI
  * axios
- * JSS (CSS in JS)
+ * JSS (CSS-in-JS)
  * HMR (Hot Module Replacement)
  * CSS hot reload
 
