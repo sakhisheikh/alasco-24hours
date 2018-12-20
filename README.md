@@ -14,6 +14,9 @@ This app is built with certain essential components:
  * @Reach Router (built on React Suspense)
  * Webpack 4 
  * Webpack cli
+ * Redux
+ * Context API
+ * Jest and Enzyme
  * Husky (accessing git hooks)
  * Babel 7
  * React Material UI
@@ -38,7 +41,7 @@ To install dependencies:  ```yarn```
 
 To run the server locally: ```yarn start```
 
-To create production build:  ```yarn prebuild```
+To create production build:  ```yarn build```
 
 To commit code: ```git add .``` -> ```git commit -m "YOUR_MESSAGE"``` (husky begins for pre-commit hook)
 
