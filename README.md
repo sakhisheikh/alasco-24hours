@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This project is comprised of three javascript challenges.
+This project is comprised of three javascript challenges. All three tasks are implemented in this app with minimal UI for first two tasks.
+
+*Please read [COMMENTS.md](./COMMENTS.md) for more details*
 
 ## `Components`
 
@@ -25,7 +27,6 @@ This app is built with certain essential components:
 
  * Webpack v4 for more optimized build on both local and production environment
  * `Husky` is added for linting and running unit tests before each commit. It makes sure zero code smells using `Eslint` and `Prettier`
- * All static files are cached with hashing strategy for better UX in production
  * Adhoc Presets `Webpack Visulaizer` is added to analyze production build for better app modules management.
  * `JSS` is used with [Material-UI](https://github.com/mui-org/material-ui) for modular css to avoid main thread blocking
  * Webpack config is seperated and kept very modular to adhere with app requirements for large scale in future

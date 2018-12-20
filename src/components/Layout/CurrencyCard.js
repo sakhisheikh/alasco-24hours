@@ -275,7 +275,7 @@ class CurrencyCard extends Component {
                   <MenuItem value="">None</MenuItem>
                   {currenciesData &&
                     Object.keys(currenciesData.rates).map(key => (
-                      <MenuItem {...{ key }} value={currenciesData.rates[key]}>
+                      <MenuItem className="menuItem" {...{ key }} value={currenciesData.rates[key]}>
                         {key}
                       </MenuItem>
                     ))}
